@@ -2,13 +2,6 @@
 // Start Date:  2019-05-09
 // Description:
 //      - Test boost regex
-// Notes:
-//      - Add system environment variables:
-//          BOOST_ROOT ==> C : \Program Files\boost\boost_1_60_0_VC14
-//          BOOST_ROOT_LIB ==> C : \Program Files\boost\boost_1_60_0_VC14\stage\lib
-//      - Project properties --> VC++ directories:
-//          Include directories: $(BOOST_ROOT)
-//          Library directories: $(BOOST_ROOT_LIB)
 // Change history:
 //      - Refer to GitHub comments related to each source file.
 //
