@@ -17,6 +17,7 @@
 
 #include "pch.h"
 #include <iostream>
+#include "Test_fstream_01.h"
 #include "Test_boost_regex.h"
 
 using namespace std;
@@ -25,8 +26,11 @@ int main()
 {
     bool bRet = true;
 
-    Test_boost_regex test_boost_regex;
-    bRet = test_boost_regex.Run();
+    Test_fstream_01 test_fstream_01;
+    bRet = test_fstream_01.Run();
+
+    //Test_boost_regex test_boost_regex;
+    //bRet = test_boost_regex.Run();
 
     //cout << (bRet ? "pass" : "fail") << endl;
     printf("%s \n", bRet ? "pass" : "fail");
