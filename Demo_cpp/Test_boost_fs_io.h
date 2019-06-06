@@ -5,11 +5,11 @@
 //
 
 #pragma once
-class Test
+class Test_boost_fs_io
 {
 public:
-    Test();
-    ~Test();
+    Test_boost_fs_io();
+    ~Test_boost_fs_io();
 
     bool Run();
 };

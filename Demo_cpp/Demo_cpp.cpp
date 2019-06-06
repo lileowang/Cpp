@@ -20,6 +20,7 @@
 #include "Test.h"
 #include "Test_fstream_01.h"
 #include "Test_boost_regex.h"
+#include "Test_boost_fs_io.h"
 
 using namespace std;
 
@@ -27,9 +28,12 @@ int main()
 {
     bool bRet = true;
 
-    Test test;
-    bRet = test.Run();
+    //Test test;
+    //bRet = test.Run();
 
+    Test_boost_fs_io test_boost_fs_io;
+    bRet = test_boost_fs_io.Run();
+    
     //Test_fstream_01 test_fstream_01;
     //bRet = test_fstream_01.Run();
 
